@@ -134,12 +134,12 @@ if [[ $not_arch_btw == false ]]; then
 fi
 
 # Copy files to ~/.config directory
-copy_folder ./.config ~/.config/
+sudo cp -rf ./.config/* ~/.config/
 
 # Copy .zshrc
-copy_files ./.zshrc ~/
+sudo cp -rf ./.zshrc ~/
 # Copy Bashrc
-copy_files ./.bashrc ~/
+sudo cp -rf ./.bashrc ~/
 
 # Clone zsh plugins
 clone_repository https://github.com/Aloxaf/fzf-tab ~/.config/zsh/fzf-tab
