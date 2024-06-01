@@ -28,7 +28,7 @@ To use dynamic accent color in terminal (prompt, fastfetch). u need to set confi
 # Installation
 idk if it will work. I will update install script later :3
 ``` sh
-git clone https://github.com/EC2854/Hyprland-Dots.git Dots && cd Dots && ./install.sh
+git clone https://github.com/LonkToThePast/Hyprland-Dots.git Dots && cd Dots && ./install.sh
 ```
 
 # SDDM
